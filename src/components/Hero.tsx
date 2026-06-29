@@ -70,8 +70,8 @@ const Hero = () => {
             <div className="absolute inset-[3px] rounded-full bg-dark-secondary overflow-hidden">
               <div className="w-full h-full bg-gradient-to-br from-primary/30 via-dark-secondary to-secondary/30 flex items-center justify-center">
                 <img 
-                  src="/profile.jpg" 
-                  alt="Anubhav Gupta" 
+                  src="/MYportfolio/profile.jpg"
+                  alt="Anubhav Gupta"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center 20%' }}
                 />
@@ -138,7 +138,7 @@ const Hero = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10"
         >
           <motion.a
-            href="/resume.pdf"
+            href="/MYportfolio/resume.pdf"
             download
             className="group inline-flex items-center gap-2 px-8 py-4 text-sm font-semibold text-white bg-gradient-to-r from-primary to-secondary rounded-xl hover:shadow-xl hover:shadow-primary/25 transition-all duration-300 magnetic-btn"
             whileHover={{ scale: 1.05 }}
