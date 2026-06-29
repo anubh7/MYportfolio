@@ -139,7 +139,8 @@ const Hero = () => {
         >
           <motion.a
             href="/MYportfolio/resume.pdf"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-2 px-8 py-4 text-sm font-semibold text-white bg-gradient-to-r from-primary to-secondary rounded-xl hover:shadow-xl hover:shadow-primary/25 transition-all duration-300 magnetic-btn"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
